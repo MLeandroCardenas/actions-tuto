@@ -9,4 +9,8 @@ jobs:
         run: echo "Hello Wordld"
       - name: print goobye
         run: echo "Good Bye!"
+      - name: multiple commands prompt
+        run: |
+          echo "hi"
+          echo "how are you?"
         

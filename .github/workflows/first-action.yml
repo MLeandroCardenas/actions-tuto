@@ -1,0 +1,12 @@
+name: First Workflow
+# evento que se asegura de que se pueda activar manualmente este flujo de trabajo
+on: workflow_dispatch 
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print greeting
+        run: echo "Hello Wordld"
+      - name: print goobye
+        run: echo "Good Bye!"
+        
